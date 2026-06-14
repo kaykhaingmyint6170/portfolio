@@ -1,0 +1,20 @@
+{
+  "name": "Kay Khaing Myint",
+  "title": "Senior IT / Laravel PHP Developer",
+  "tagline": "Building robust web applications with Laravel & React",
+  "summary": "Senior Full-Stack Developer with over 4 years of experience specializing in Laravel PHP development. Proficient in building enterprise-grade web applications, RESTful APIs, and intuitive user interfaces using modern JavaScript frameworks. Passionate about clean architecture, scalable solutions, and delivering business value through technology.",
+  "avatar": "/avatar.jpg",
+  "location": "Yangon, Myanmar",
+  "email": "kaykhaingmyint6170@gmail.com",
+  "social": {
+    "github": "https://github.com/kaykhaingmyint61706170",
+    "linkedin": "https://linkedin.com/in/kay-khaing-myint",
+    "twitter": "https://twitter.com/kaykhaingmyint"
+  },
+  "languages": [
+    { "name": "Burmese", "level": "Native", "proficiency": 100 },
+    { "name": "English", "level": "Intermediate", "proficiency": 60 },
+    { "name": "Japanese", "level": "Basic (JLPT N5)", "proficiency": 25 }
+  ],
+  "resumeUrl": "/resume/KayKhaingMyint_Resume.pdf"
+}

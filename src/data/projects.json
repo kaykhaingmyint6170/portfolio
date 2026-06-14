@@ -1,0 +1,77 @@
+[
+  {
+    "id": "hotel",
+    "title": "Hotel Project",
+    "subtitle": "Centralized Hotel Management System",
+    "description": "A comprehensive hotel management platform designed to streamline room bookings, check-in/check-out workflows, housekeeping management, billing, and guest relationship tracking. Features real-time availability dashboards and role-based access for staff, managers, and administrators.",
+    "tech": ["Laravel", "PHP", "MySQL", "Vue.js", "Bootstrap", "REST API"],
+    "role": "Full-Stack Developer",
+    "highlights": [
+      "Architected the room inventory and booking engine with conflict detection",
+      "Built real-time housekeeping status board with WebSocket integration",
+      "Implemented role-based access with granular permissions"
+    ],
+    "image": "/projects/hotel.jpg",
+    "color": "#6366f1"
+  },
+  {
+    "id": "ecommerce",
+    "title": "E-commerce Project",
+    "subtitle": "Scalable Online Retail Platform",
+    "description": "A full-featured e-commerce platform built for scalability, supporting product catalog management, shopping cart, secure checkout with multiple payment gateways, order tracking, inventory management, and an admin dashboard with analytics.",
+    "tech": ["Laravel", "PHP", "MySQL", "React.js", "Tailwind CSS", "Stripe API"],
+    "role": "Full-Stack Developer",
+    "highlights": [
+      "Designed the product variant system handling thousands of SKUs",
+      "Integrated Stripe and PayPal payment gateways with webhook handling",
+      "Built admin analytics dashboard with Chart.js visualizations"
+    ],
+    "image": "/projects/ecommerce.jpg",
+    "color": "#f59e0b"
+  },
+  {
+    "id": "gym",
+    "title": "Gym Project",
+    "subtitle": "Member Management & Class Scheduling",
+    "description": "A gym management system handling member registrations, membership plans, class scheduling, trainer assignments, attendance tracking, and payment collection. Includes a member-facing portal for booking classes and viewing workout history.",
+    "tech": ["Laravel", "PHP", "MySQL", "Vue.js", "Bootstrap", "Twilio API"],
+    "role": "Full-Stack Developer",
+    "highlights": [
+      "Built the class scheduling engine with recurring booking support",
+      "Implemented SMS notifications via Twilio for class reminders",
+      "Created a member check-in system with QR code scanning"
+    ],
+    "image": "/projects/gym.jpg",
+    "color": "#10b981"
+  },
+  {
+    "id": "showlike",
+    "title": "ShowLike Project",
+    "subtitle": "Entertainment Discovery & Rating Platform",
+    "description": "A social entertainment discovery platform where users can browse movies, TV series, and shows, write reviews, rate content, create watchlists, and follow other users. Features personalized recommendations based on viewing preferences and rating history.",
+    "tech": ["Laravel", "PHP", "MySQL", "React.js", "Tailwind CSS", "TMDB API"],
+    "role": "Full-Stack Developer",
+    "highlights": [
+      "Integrated The Movie Database (TMDB) API for rich content metadata",
+      "Built a recommendation engine using collaborative filtering",
+      "Designed the review and rating system with moderation tools"
+    ],
+    "image": "/projects/showlike.jpg",
+    "color": "#ec4899"
+  },
+  {
+    "id": "smoove",
+    "title": "Smoove Project",
+    "subtitle": "Comprehensive Travel Booking System",
+    "description": "An all-in-one travel booking platform for flights, hotels, and ground transit. Features multi-city search, fare comparison, booking management, itinerary planning, and a loyalty rewards program. Handles complex pricing rules and real-time availability checks.",
+    "tech": ["Laravel", "PHP", "MySQL", "Vue.js", "Bootstrap", "Amadeus API"],
+    "role": "Full-Stack Developer",
+    "highlights": [
+      "Integrated Amadeus travel API for flight and hotel inventory",
+      "Built the multi-step booking flow with session persistence",
+      "Developed the dynamic pricing engine with discount rules"
+    ],
+    "image": "/projects/smoove.jpg",
+    "color": "#8b5cf6"
+  }
+]

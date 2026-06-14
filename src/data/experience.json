@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "role": "Senior Developer",
+    "company": "Oriental Vigour Pte Ltd",
+    "location": "Myanmar",
+    "startDate": "April 2026",
+    "endDate": "Present",
+    "current": true,
+    "highlights": [
+      "Lead architecture design and development of major client projects",
+      "Mentor junior and mid-level developers through code reviews and pair programming",
+      "Drive technical decisions for stack upgrades and migration strategies",
+      "Implement CI/CD pipelines and improve deployment workflows"
+    ]
+  },
+  {
+    "id": 2,
+    "role": "Mid-level Developer",
+    "company": "Oriental Vigour Pte Ltd",
+    "location": "Myanmar",
+    "startDate": "April 2024",
+    "endDate": "March 2026",
+    "current": false,
+    "highlights": [
+      "Developed and maintained multiple full-stack web applications using Laravel and Vue.js",
+      "Built RESTful APIs and integrated third-party services",
+      "Optimized database queries reducing page load times by 40%",
+      "Collaborated with cross-functional teams to deliver projects on schedule"
+    ]
+  },
+  {
+    "id": 3,
+    "role": "Junior Developer",
+    "company": "Oriental Vigour Pte Ltd",
+    "location": "Myanmar",
+    "startDate": "April 2022",
+    "endDate": "March 2023",
+    "current": false,
+    "highlights": [
+      "Contributed to frontend and backend development under senior mentorship",
+      "Wrote unit tests and participated in QA processes",
+      "Maintained legacy systems while learning modern development practices",
+      "Built internal tools to streamline company operations"
+    ]
+  }
+]

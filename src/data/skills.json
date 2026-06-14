@@ -1,0 +1,41 @@
+{
+  "categories": [
+    {
+      "name": "Backend",
+      "skills": [
+        { "name": "PHP", "level": 95 },
+        { "name": "Laravel", "level": 92 },
+        { "name": "Node.js / Express", "level": 75 },
+        { "name": "RESTful API Design", "level": 90 }
+      ]
+    },
+    {
+      "name": "Frontend",
+      "skills": [
+        { "name": "JavaScript / ES6+", "level": 88 },
+        { "name": "React.js", "level": 80 },
+        { "name": "Vue.js", "level": 82 },
+        { "name": "HTML5 / CSS3", "level": 90 },
+        { "name": "Tailwind CSS", "level": 85 }
+      ]
+    },
+    {
+      "name": "Database & Tools",
+      "skills": [
+        { "name": "MySQL", "level": 88 },
+        { "name": "Git / GitHub", "level": 85 },
+        { "name": "Docker", "level": 65 },
+        { "name": "CI/CD", "level": 70 }
+      ]
+    },
+    {
+      "name": "Soft Skills",
+      "skills": [
+        { "name": "Team Leadership", "level": 82 },
+        { "name": "Problem Solving", "level": 90 },
+        { "name": "Code Review", "level": 85 },
+        { "name": "Agile / Scrum", "level": 78 }
+      ]
+    }
+  ]
+}
