@@ -61,7 +61,7 @@ export function Navbar() {
               {theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />}
             </button>
 
-            <Button variant="secondary" size="sm" href="/resume/KayKhaingMyint_Resume.pdf" className="hidden md:inline-flex">
+            <Button variant="secondary" size="sm" href="/resume/KayKhaingMyint_Resume.pdf" target="_blank" rel="noopener noreferrer" download="kay_khaing_myint_portfolio.pdf" className="hidden md:inline-flex">
               <Download size={16} />
               Resume
             </Button>
@@ -92,7 +92,7 @@ export function Navbar() {
                 {link.label}
               </a>
             ))}
-            <Button variant="secondary" size="sm" href="/resume/KayKhaingMyint_Resume.pdf" className="w-full mt-2">
+            <Button variant="secondary" size="sm" href="/resume/KayKhaingMyint_Resume.pdf" target="_blank" rel="noopener noreferrer" download="kay_khaing_myint_portfolio.pdf" className="w-full mt-2">
               <Download size={16} />
               Resume
             </Button>

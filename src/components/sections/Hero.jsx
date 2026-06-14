@@ -41,7 +41,7 @@ export function Hero() {
             <Button variant="gradient" size="lg" href="#projects">
               View My Work
             </Button>
-            <Button variant="secondary" size="lg" href={profile.resumeUrl}>
+            <Button variant="secondary" size="lg" href={profile.resumeUrl} target="_blank" rel="noopener noreferrer" download="kay_khaing_myint_portfolio.pdf">
               <Download size={18} />
               Download Resume
             </Button>
