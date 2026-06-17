@@ -5,7 +5,7 @@ export function Button({ children, variant = 'primary', size = 'md', href, onCli
     primary: 'bg-primary text-white hover:bg-primary-dark shadow-sm hover:shadow-md',
     secondary: 'border border-border text-text-secondary hover:border-primary hover:text-primary bg-transparent',
     ghost: 'text-text-secondary hover:text-text hover:bg-surface-secondary',
-    gradient: 'bg-gradient-to-r from-primary to-accent text-text hover:shadow-lg hover:shadow-primary/25',
+    gradient: 'bg-foreground text-background hover:shadow-lg hover:opacity-90',
   };
 
   const sizes = {
