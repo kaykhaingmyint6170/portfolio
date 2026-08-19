@@ -3,7 +3,7 @@ import { SectionHeading } from '../ui/SectionHeading';
 import { Card, CardBody, CardHeader } from '../ui/Card';
 import { Badge } from '../ui/Badge';
 import projects from '../../data/projects.json';
-import { ExternalLink, Code } from 'lucide-react';
+import { ExternalLink, Code, Globe, Smartphone } from 'lucide-react';
 
 function ProjectCard({ project, index }) {
   const [ref, visible] = useScrollAnimation({ threshold: 0.15 });
@@ -61,6 +61,45 @@ function ProjectCard({ project, index }) {
               </li>
             ))}
           </ul>
+
+          {/* Links */}
+          {project.links && (
+            <div className="flex flex-wrap gap-2 mb-4">
+              {project.links.website && (
+                <a
+                  href={project.links.website}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 px-2.5 py-1 text-xs rounded-full bg-primary/10 text-primary hover:bg-primary/20 transition-colors"
+                >
+                  <Globe size={12} />
+                  Website
+                </a>
+              )}
+              {project.links.appStore && (
+                <a
+                  href={project.links.appStore}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 px-2.5 py-1 text-xs rounded-full bg-primary/10 text-primary hover:bg-primary/20 transition-colors"
+                >
+                  <Smartphone size={12} />
+                  App Store
+                </a>
+              )}
+              {project.links.playStore && (
+                <a
+                  href={project.links.playStore}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 px-2.5 py-1 text-xs rounded-full bg-primary/10 text-primary hover:bg-primary/20 transition-colors"
+                >
+                  <Smartphone size={12} />
+                  Play Store
+                </a>
+              )}
+            </div>
+          )}
 
           <div className="flex items-center justify-between pt-3 border-t border-border">
             <span className="text-xs text-text-tertiary">{project.role}</span>

@@ -127,7 +127,7 @@ export function Contact() {
                   </div>
                   <div>
                     <h4 className="text-sm font-medium text-text">GitHub</h4>
-                    <a href="https://github.com/kaykhaingmyint61706170" target="_blank" rel="noopener noreferrer" className="text-sm text-text-secondary hover:text-primary transition-colors">
+                    <a href="https://github.com/kaykhaingmyint6170" target="_blank" rel="noopener noreferrer" className="text-sm text-text-secondary hover:text-primary transition-colors">
                       github.com/kaykhaingmyint6170
                     </a>
                   </div>

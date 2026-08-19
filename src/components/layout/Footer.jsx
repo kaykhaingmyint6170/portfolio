@@ -40,7 +40,7 @@ export function Footer() {
             <h4 className="text-sm font-semibold text-text uppercase tracking-wider mb-3">Connect</h4>
             <div className="flex gap-3">
               <a
-                href="https://github.com/kaykhaingmyint61706170"
+                href="https://github.com/kaykhaingmyint6170"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-lg text-text-secondary hover:text-text hover:bg-surface-secondary transition-all"

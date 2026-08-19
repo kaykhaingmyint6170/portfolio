@@ -1,6 +1,6 @@
 import profile from '../../data/profile.json';
 import { Button } from '../ui/Button';
-import { Download, ChevronDown } from 'lucide-react';
+import { ChevronDown } from 'lucide-react';
 
 export function Hero() {
   return (
@@ -41,9 +41,8 @@ export function Hero() {
             <Button variant="gradient" size="lg" href="#projects">
               View My Work
             </Button>
-            <Button variant="secondary" size="lg" href={profile.resumeUrl} target="_blank" rel="noopener noreferrer" download="kay_khaing_myint_portfolio.pdf">
-              <Download size={18} />
-              Download Resume
+            <Button variant="secondary" size="lg" href={profile.resumeUrl} target="_blank" rel="noopener noreferrer">
+              Resume
             </Button>
             <Button variant="ghost" size="lg" href="#contact">
               Get In Touch

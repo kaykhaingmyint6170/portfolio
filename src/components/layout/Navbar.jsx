@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useTheme } from '../../context/ThemeContext';
-import { Menu, X, Sun, Moon, Download } from 'lucide-react';
+import { Menu, X, Sun, Moon } from 'lucide-react';
 import { Button } from '../ui/Button';
 
 const NAV_LINKS = [
@@ -20,7 +20,7 @@ export function Navbar() {
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 50);
     window.addEventListener('scroll', onScroll, { passive: true });
-    return () => window.removeEventListener('scroll', onScroll);
+    return window.removeEventListener('scroll', onScroll);
   }, []);
 
   return (
@@ -61,8 +61,7 @@ export function Navbar() {
               {theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />}
             </button>
 
-            <Button variant="secondary" size="sm" href="/resume/KayKhaingMyint_Resume.pdf" target="_blank" rel="noopener noreferrer" download="kay_khaing_myint_portfolio.pdf" className="hidden md:inline-flex">
-              <Download size={16} />
+            <Button variant="secondary" size="sm" href="https://drive.google.com/file/d/1QIgRq7swEWVv4SLZv6OXCpJYbCc9N_Ce/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="hidden md:inline-flex">
               Resume
             </Button>
 
@@ -92,8 +91,7 @@ export function Navbar() {
                 {link.label}
               </a>
             ))}
-            <Button variant="secondary" size="sm" href="/resume/KayKhaingMyint_Resume.pdf" target="_blank" rel="noopener noreferrer" download="kay_khaing_myint_portfolio.pdf" className="w-full mt-2">
-              <Download size={16} />
+            <Button variant="secondary" size="sm" href="https://drive.google.com/file/d/1QIgRq7swEWVv4SLZv6OXCpJYbCc9N_Ce/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="w-full mt-2">
               Resume
             </Button>
           </div>
